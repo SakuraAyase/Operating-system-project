@@ -1,0 +1,4 @@
+﻿  main.cpp
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(88): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(102): warning C4018: “<”: 有符号/无符号不匹配
+  OS_pro.vcxproj -> E:\文件\程序\c++程序\OS_pro\Debug\OS_pro.exe
