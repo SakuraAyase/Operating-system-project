@@ -2,10 +2,14 @@
 #include<string>
 #include<vector>
 #include<iostream>
+#include<ctime>
+#include<stdio.h>
+#include<stdlib.h>
 
-
+#define MAXFILESIZE 266
 #define BLOCKSNUM 16128
 #define BLOCKSIZE 1024
+#define FILESIZE 1000
 
 #define INODESNUM 1024
 #define INODESIZE 128
@@ -17,6 +21,8 @@
 #define DIRNUM 63
 
 #define MAXNAME 20
+#define INDIRECT_ADDR 245	
+
 
 using namespace std;
 
@@ -26,6 +32,23 @@ public:
 	long int fileSize;
 	long int dirSize;
 	char name[MAXNAME];
+	long int createTime;
+	long int modifyTime;
+};
+
+class file_struct
+{
+public:
+	int index;
+	char c[FILESIZE];
+};
+
+class indirect_address
+{
+public:
+	int index;
+	int size;
+	int addr[INDIRECT_ADDR];
 };
 
 class inode
@@ -44,6 +67,10 @@ public:
 		for (int i = 0; i < 10; i++)
 			direct_addr[i] = -1;
 		parent = this;
+		time_t timer;
+		time(&timer);
+		finode.createTime = timer;
+		finode.modifyTime = timer;
 	}
 };
 
@@ -70,6 +97,7 @@ struct direct
 
 struct dir
 {
+	int index;
 	int	dirNum;
 	direct direct[DIRNUM];
 };

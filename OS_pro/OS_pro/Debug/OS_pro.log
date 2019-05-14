@@ -1,4 +1,28 @@
 ﻿  main.cpp
-e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(88): warning C4018: “<”: 有符号/无符号不匹配
-e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(102): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\datastructure.h(72): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+e:\文件\程序\c++程序\os_pro\os_pro\datastructure.h(73): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(145): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(297): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(441): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(502): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(537): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(566): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(588): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(696): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(847): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(919): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1005): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1032): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1053): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1195): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1343): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1381): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1391): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1561): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1622): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1661): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1690): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1712): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1789): warning C4018: “<”: 有符号/无符号不匹配
+e:\文件\程序\c++程序\os_pro\os_pro\filesystem.h(1909): warning C4018: “<”: 有符号/无符号不匹配
   OS_pro.vcxproj -> E:\文件\程序\c++程序\OS_pro\Debug\OS_pro.exe
